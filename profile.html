@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="asset/images/fav.png">
+    <title>HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/media.css">
+</head>
+
+
+<body>
+
+    <!-- Start Header -->
+
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-6">
+                    <img class="img-fluid logo" src="asset/images/logo.png">
+                </div>
+                <div class="col-md-7 col-6 text-left">
+                    <ul class="list-inline">
+                        <li class="list-inline-item hide-mob"><a href="" class="btn">صاحب سكن</a></li>
+                        <li class="list-inline-item hide-mob"><a href="" class="btn btn-mabet">أطلب سكن</a></li>
+                        <li class="list-inline-item nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bars"></i> <img src="asset/images/profile.png" width="40" height="40" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">إضافة حساب</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#staticBackdrop">التفعيل</a>
+                                <a class="dropdown-item" href="#">تسجيل الدخول</a>
+
+                                <a class="dropdown-item" href="#">الملف الشخصي</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 hide-desktop">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="" class="btn">صاحب سكن</a></li>
+                        <li class="list-inline-item"><a href="" class="btn btn-mabet">أطلب سكن</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="profile-header">
+        <div class="container">
+            <div class="content">
+                <div class="row align-items-center">
+                    <div class="col-sm-8">
+                        <div class="media align-items-center">
+                            <img src="asset/images/user.png" class="ml-3 rounded-circle" alt="...">
+                            <div class="media-body m-0">
+                                <h5 class="mb-1">خالد نوري</h5>
+                                <p class="m-0">حساب عادي</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="btn btn-mabet btn-profile d-block">تعديل الحساب</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#a" role="tab" aria-controls="home" aria-selected="true">حجوزاتي</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#b" role="tab" aria-controls="profile" aria-selected="false">المفضله</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#c" role="tab" aria-controls="contact" aria-selected="false">مساكني</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#d" role="tab" aria-controls="contact" aria-selected="false">طليات السكن</a>
+                </li>
+            </ul>
+            <div class="tab-content related-mabet" id="myTabContent">
+                <div class="tab-pane fade show active" id="a" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-9">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <div class="top-data">
+                                        <div class="overlay-top-data">
+                                            <div class="row align-items-center">
+                                                <div class="col-10">
+                                                    <h6 class="text-white">سكن جديد مضاف حديثا</h6>
+                                                </div>
+                                                <div class="col-2">
+                                                    <i class="fa fa-heart-o text-left d-block text-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fotorama">
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5 class="pt-mob">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز </h4>
+                                        <div>
+                                            <h6 class="mt-4 availability-tit">مرافق السكن</h6>
+                                            <ul class="list-inline m-0">
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6 class="mt-4 availability-tit">مرافق السكن</h6>
+                                            <ul class="list-inline m-0">
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 left-data">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-heart-o heart-icon"></i></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-angle-left arrow-icon"></i></a></li>
+                            </ul>
+
+                            <ul class="list-inline m-0 pt-desktop">
+                                <li class="list-inline-item">
+                                    <h5 class="currency">SAR</h5>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <h2>10744</h2>
+                                </li>
+                            </ul>
+
+                            <h6> <small> سعر/ </small>الليله الواحده</h6>
+
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-9">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <div class="top-data">
+                                        <div class="overlay-top-data">
+                                            <div class="row align-items-center">
+                                                <div class="col-10">
+                                                    <h6 class="text-white">سكن جديد مضاف حديثا</h6>
+                                                </div>
+                                                <div class="col-2">
+                                                    <i class="fa fa-heart-o text-left d-block text-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fotorama">
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                            <div data-img="asset/images/product-image.png"><strong></strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5 class="pt-mob">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز </h4>
+                                        <div>
+                                            <h6 class="mt-4 availability-tit">مرافق السكن</h6>
+                                            <ul class="list-inline m-0">
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6 class="mt-4 availability-tit">مرافق السكن</h6>
+                                            <ul class="list-inline m-0">
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                                <li class="list-inline-item"><small class="my-4"><i class="fa fa-map-marker"></i> مكه المكرمه</small></li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 left-data">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-heart-o heart-icon"></i></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-angle-left arrow-icon"></i></a></li>
+                            </ul>
+
+                            <ul class="list-inline m-0 pt-desktop">
+                                <li class="list-inline-item">
+                                    <h5 class="currency">SAR</h5>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <h2>10744</h2>
+                                </li>
+                            </ul>
+
+                            <h6> <small> سعر/ </small>الليله الواحده</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                <div class="tab-pane fade" id="d" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="logo">
+                        <img src="asset/images/logo.png" class="img-fluid">
+                    </div>
+                    <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
+                    <div class="social-media">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <!-- <img src="asset/images/whatsapp.png"> -->
+                                    <i class="fa fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <!-- <img src="asset/images/facebook.png"> -->
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <!-- <img src="asset/images/youtube.png"> -->
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h1 class="title-foot">النشره البريديه</h1>
+                    <form class="subscribe">
+                        <input type="text" class="fontAwesome form-control" name="emailAddress" placeholder="&#xf0e0; البريد الإلكتروني">
+                        <button class="btn">إرسال</button>
+                        <div class="row links">
+                            <div class="col-lg-4 col-6 group">
+                                <h1 class="title-foot">حول مبيت</h1>
+                                <ul class="list-unstyled">
+                                    <li><a href="">من نحن</a></li>
+                                    <li><a href="">إتصل بنا</a></li>
+                                    <li><a href="">شروط الإستخدام</a></li>
+                                    <li><a href="">سياسة الخصوصيه</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-6 group">
+                                <h1 class="title-foot">صاحب مسكن</h1>
+                                <ul class="list-unstyled">
+                                    <li><a href="">المساكن</a></li>
+                                    <li><a href="">كيف يعمل مبيت؟</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-6 group">
+                                <h1 class="title-foot">باحث عن سكن</h1>
+                                <ul class="list-unstyled">
+                                    <li><a href="">أضف مسكن</a></li>
+                                    <li><a href="">كيفية إضافة مسكن؟</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p class="copyright">© 2022 جميع الحقوق محفوظه مبيت.كوم </p>
+
+            </div>
+    </footer>
+</body>
+<script src="asset/js/jquery-1.12.4.min.js"></script>
+<script src="asset/js/popper-min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script src="asset/js/script.js"></script>
+
+</body>
+
+</html>

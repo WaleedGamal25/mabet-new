@@ -1,0 +1,131 @@
+@font-face {
+    font-family: araboto-medium;
+    src: url(../Araboto-Medium.ttf);
+}
+
+body,
+html {
+    font-family: araboto-medium;
+}
+
+.container-fluid {
+    max-width: 1800px;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 25px
+}
+
+.btn-mabet {
+    background: #3FAE56;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px !important
+}
+
+
+/* Start Header */
+
+header {
+    padding: 23px 0 10px;
+}
+
+header .logo {
+    width: 150px;
+}
+
+header .dropdown-toggle::after {
+    display: none !important;
+}
+
+header .dropdown a#navbarDropdownMenuLink {
+    border: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 3px
+}
+
+header .dropdown a#navbarDropdownMenuLink i {
+    padding: 0 8px;
+    font-size: 20px;
+    color: black
+}
+
+
+/* End Header */
+
+
+/* Start Home-banner */
+
+.home-banner {}
+
+.home-banner .banner-background {
+    background: url(../images/header.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 30px
+}
+
+.home-banner h1 {
+    color: white;
+    font-size: 4vw;
+    max-width: 61vw;
+    line-height: 1.5;
+}
+
+.home-banner .owl-carousel .item {
+    position: relative;
+}
+
+.home-banner .owl-carousel .item .content {
+    position: absolute;
+    top: 4vw;
+    z-index: 333;
+    width: 100%;
+    padding: 82px 100px 0;
+}
+
+.home-banner .owl-dots {
+    position: relative;
+    bottom: 12vw;
+    right: 100px;
+    width: fit-content;
+    background: white;
+    border-radius: 30px;
+    padding: 7px;
+    margin: 50px 0 0;
+}
+
+.owl-dots .owl-dot button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.owl-dots .owl-dot button:focus {
+    outline: none;
+}
+
+.owl-dots .owl-dot button {
+    border-radius: 30px;
+    color: black;
+    padding: 10px 25px !important;
+    font-size: 1.2vw;
+}
+
+.owl-dots .owl-dot.active button {
+    background: #3FAE56;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px !important
+}
+
+
+/* End Home-banner */
