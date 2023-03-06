@@ -615,6 +615,50 @@ footer .copyright {
     max-width: 450px
 }
 
+.product-gallery .price-wishlist ul {
+    margin: 0;
+}
+
+.product-gallery .price-wishlist i {
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #4D644C;
+    position: relative;
+    top: -3px;
+}
+
+.product-gallery .price-wishlist h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #006E29
+}
+
+.product-gallery .price-wishlist {
+    background: #CFEACB;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product-gallery .wishlist-sec {
+    float: left;
+}
+
+.product-gallery .price-wishlist h4 {
+    margin: 0;
+}
+
+.product-gallery .box .flat-option {
+    background: #E2E3DD;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px
+}
+
 .product-gallery .box h3 {
     font-size: 14px;
     color: #9B9B9B
@@ -1292,7 +1336,9 @@ footer .copyright {
     margin-bottom: 0;
     text-align: center;
     position: relative;
-    width: 100%
+    width: 100%;
+    background: white;
+    color: black;
 }
 
 .new-order .area {
@@ -1322,7 +1368,36 @@ footer .copyright {
     color: white;
 }
 
+.new-order .nav-link,
+.new-order .nav-link.active {
+    background: none;
+    border: none
+}
+
+.new-order .nav-link.active .box label {
+    background: #006E29;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
 .new-order input[type=radio]:checked+label::before {
+    color: #FFF;
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    position: absolute;
+    right: 19px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #50b37c;
+    line-height: 26px;
+    border-radius: 50%;
+}
+
+.new-order .nav-link.active .box label::before {
     color: #FFF;
     font-family: "FontAwesome";
     content: "\f00c";
@@ -1347,7 +1422,20 @@ footer .copyright {
     margin: 15px auto 0;
 }
 
+.new-order .nav-tabs {
+    width: 100%;
+    border: none;
+}
+
+.new-order .nav-item {
+    width: 33%
+}
+
 .new-order input[type=radio]:checked+label::after {
+    border-color: white
+}
+
+.new-order .nav-link.active label::after {
     border-color: white
 }
 
@@ -1373,6 +1461,24 @@ footer .copyright {
 .new-order .box-details input[type=radio]:checked+label {
     background: #4D644C;
     color: white;
+}
+
+.new-order table {
+    background: none;
+    margin-bottom: 0;
+}
+
+.new-order .teble-responsive {
+    padding-right: 20px;
+    border-right: 1px solid #DDD;
+}
+
+.new-order .teble-responsive th {
+    font-weight: 400;
+}
+
+.new-order .teble-responsive td {
+    text-align: left;
 }
 
 
@@ -2246,3 +2352,76 @@ button:focus {
 
 
 /* Chat */
+
+
+/* Orders */
+
+.orders {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.orders .desc {
+    min-height: 250px;
+}
+
+.orders .btn {
+    text-align: center;
+    width: 100%;
+}
+
+.orders .btn[disabled] {
+    background: #DDD;
+    text-align: center;
+    width: 100%;
+}
+
+.orders .btn-success {
+    background: #006E29;
+}
+
+.btn-completed {
+    background: #CFEACB
+}
+
+.orders .tab-content .row {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Orders */
+
+.orders.order-details {
+    max-width: 100%;
+}
+
+.orders.order-details .sidebar {
+    background: white;
+    padding: 10px;
+}
+
+.orders.order-details .sidebar hr {
+    width: 50px;
+    border: 1px solid #727970;
+}
+
+.orders.order-details .teble-responsive {
+    padding-right: 0;
+    border-right: none;
+}
+
+.orders.order-details .nav-item {
+    width: 25%;
+}
+
+.orders.order-details .nav-link.active .box label::before {
+    display: none;
+}
+
+.orders.order-details th,
+.orders.order-details td {
+    font-size: 12px;
+}

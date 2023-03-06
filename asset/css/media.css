@@ -1,4 +1,20 @@
 @media (max-width:767px) {
+    .new-order .nav-item {
+        width: 100%;
+    }
+    .new-order .nav-item .nav-link {
+        padding: 0;
+    }
+    .new-order .teble-responsive {
+        padding-right: 0;
+        border-right: none;
+    }
+    .orders .btn {
+        margin-bottom: 30px;
+    }
+    .orders .desc {
+        min-height: auto;
+    }
     .steps h1 {
         font-size: 25px;
     }
@@ -139,5 +155,8 @@
     }
     .home-banner .owl-dots {
         bottom: 14vw;
+    }
+    .orders.order-details .nav-item {
+        width: 50%;
     }
 }
