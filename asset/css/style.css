@@ -589,6 +589,10 @@ footer .copyright {
     padding: 20px;
 }
 
+.product-gallery .row {
+    align-items: center;
+}
+
 .product-gallery small {
     color: #777
 }
@@ -611,8 +615,8 @@ footer .copyright {
 }
 
 .product-gallery .box h1 {
-    font-size: 22px;
-    max-width: 450px
+    font-size: 20px;
+    margin-top: 0;
 }
 
 .product-gallery .price-wishlist ul {
@@ -2425,3 +2429,67 @@ button:focus {
 .orders.order-details td {
     font-size: 12px;
 }
+
+.orders.order-details .btns {
+    float: left;
+    /* display: flex; */
+}
+
+.orders.order-details .btns .btn-default {
+    margin-left: 10px;
+    box-shadow: 0 0 7px 1px #CCC;
+    width: 40%;
+    display: inline;
+    transition: all 0.3s ease-in-out
+}
+
+.orders.order-details .btns .btn-default:hover {
+    box-shadow: 0 0 10px 2px #ccc;
+}
+
+.orders.order-details .product-gallery .btns .btn-mabet {
+    background: #006E29;
+    width: 40%;
+    display: inline;
+}
+
+.orders.order-details .cancel-order {
+    font-size: 14px;
+    color: black
+}
+
+.offers.order-details {
+    background: url(../images/Highlight.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+.offers.order-details .accept-title {
+    color: #006E29;
+    font-weight: bold;
+}
+
+
+/* Profile */
+
+.profile.register {
+    background: none;
+}
+
+.profile .logged::before {
+    color: #FFF;
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    position: absolute;
+    left: 19px;
+    top: 17px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #50b37c;
+    line-height: 26px;
+    border-radius: 50%;
+}
+
+
+/* Profile */

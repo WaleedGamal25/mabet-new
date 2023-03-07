@@ -1,162 +1,185 @@
-@media (max-width:767px) {
-    .new-order .nav-item {
-        width: 100%;
-    }
-    .new-order .nav-item .nav-link {
-        padding: 0;
-    }
-    .new-order .teble-responsive {
-        padding-right: 0;
-        border-right: none;
-    }
-    .orders .btn {
-        margin-bottom: 30px;
-    }
-    .orders .desc {
-        min-height: auto;
-    }
-    .steps h1 {
-        font-size: 25px;
-    }
-    .steps .step .content img {
-        width: 25vw;
-    }
-    .steps .step .content {
-        bottom: -13vw;
-    }
-    .steps .step .content h4 {
-        font-size: 18px;
-    }
-    .steps .step .content h6 {
-        font-size: 15px;
-    }
-    .two-cities .content h2 {
-        width: 90%;
-        bottom: 9vw;
-        font-size: 20px;
-    }
-    .btn {
-        padding: 10px 3px;
-        font-size: 15px;
-    }
-    .qty {
-        display: flex;
-    }
-    .skn-order .right-row {
-        margin-bottom: 30px
-    }
-    .title {
-        font-size: 30px;
-        text-align: center;
-    }
-    .mabet-form .title {
-        text-align: right !important;
-    }
-    .header-page h1 {
-        font-size: 30px;
-    }
-    .home-banner .owl-carousel .item .content {
-        top: -3vw;
-    }
-    .home-banner .owl-dots {
-        bottom: 14vw;
-    }
-    .home-banner .content {
-        padding: 130px 20px;
-    }
-    .home-banner .content {
-        padding: 90px 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .home-banner h1 {
-        font-size: 31px;
-    }
-    header .hide-desktop {
-        display: block;
-        text-align: center;
-        margin-top: 20px
-    }
-    header .hide-mob {
-        display: none;
-    }
-    footer .logo img {
-        display: block;
-        margin: 0 auto;
-    }
-    footer .social-media {
-        margin-top: 20px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-    footer .copyright {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .profile-header .btn-profile {
-        float: none;
-        text-align: center;
-        margin: 30px auto 0;
-        width: fit-content;
-    }
-    .profile .left-data {
-        float: none;
-        text-align: center;
-        margin-top: 30px;
-    }
-    .profile .pt-desktop {
-        padding-top: 20px;
-    }
-    .profile .pt-mob {
-        padding-top: 20px;
-    }
-    .payment-section .reverse-row {
-        flex-direction: column-reverse;
-    }
-    .payment-section .main-content {
-        margin-bottom: 30px
-    }
-}
-
-@media (max-width:991px) {
-    .home-banner h1 {
-        font-size: 39px;
-    }
-    .home-banner .inline-btns {
-        margin: 20px 0;
-        display: flex
-    }
-    .data-carousel #owl-demo .item h1 {
-        width: 100%;
-    }
-    .data-carousel .owl-dots {
-        display: block;
-        margin-bottom: 20px
-    }
-    .data-carousel .owl-theme .owl-nav {
-        display: none
-    }
-    .data-carousel .mob-progress {
-        display: block
-    }
-    .data-carousel .desktop-progress {
-        display: none
-    }
-}
-
-@media (min-width:768px) and (max-width:1024px) {
-    .home-banner .owl-carousel .item .content {
-        top: 0vw;
-    }
-    .home-banner .owl-dots {
-        bottom: 14vw;
-    }
-    .orders.order-details .nav-item {
-        width: 50%;
-    }
-}
+        @media (max-width:767px) {
+            .orders.order-details .nav-item {
+                width: 48%;
+                margin: 1%;
+            }
+            .new-order .nav-tabs {
+                margin-top: 20px;
+            }
+            .new-order .nav-item {
+                width: 100%;
+            }
+            .new-order .nav-item .nav-link {
+                padding: 0;
+            }
+            .new-order .teble-responsive {
+                padding-right: 0;
+                border-right: none;
+            }
+            .orders .btn {
+                margin-bottom: 30px;
+            }
+            .orders .desc {
+                min-height: auto;
+            }
+            .steps h1 {
+                font-size: 25px;
+            }
+            .steps .step .content img {
+                width: 25vw;
+            }
+            .steps .step .content {
+                bottom: -13vw;
+            }
+            .steps .step .content h4 {
+                font-size: 18px;
+            }
+            .steps .step .content h6 {
+                font-size: 15px;
+            }
+            .two-cities .content h2 {
+                width: 90%;
+                bottom: 9vw;
+                font-size: 20px;
+            }
+            .btn {
+                padding: 10px 3px;
+                font-size: 15px;
+            }
+            .qty {
+                display: flex;
+            }
+            .skn-order .right-row {
+                margin-bottom: 30px
+            }
+            .title {
+                font-size: 30px;
+                text-align: center;
+            }
+            .mabet-form .title {
+                text-align: right !important;
+            }
+            .header-page h1 {
+                font-size: 30px;
+            }
+            .home-banner .owl-carousel .item .content {
+                top: -3vw;
+            }
+            .home-banner .owl-dots {
+                bottom: 14vw;
+            }
+            .home-banner .content {
+                padding: 130px 20px;
+            }
+            .home-banner .content {
+                padding: 90px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            .home-banner h1 {
+                font-size: 31px;
+            }
+            header .hide-desktop {
+                display: block;
+                text-align: center;
+                margin-top: 20px
+            }
+            header .hide-mob {
+                display: none;
+            }
+            footer .logo img {
+                display: block;
+                margin: 0 auto;
+            }
+            footer .social-media {
+                margin-top: 20px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+            footer .copyright {
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .profile-header .btn-profile {
+                float: none;
+                text-align: center;
+                margin: 30px auto 0;
+                width: fit-content;
+            }
+            .profile .left-data {
+                float: none;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .profile .pt-desktop {
+                padding-top: 20px;
+            }
+            .profile .pt-mob {
+                padding-top: 20px;
+            }
+            .payment-section .reverse-row {
+                flex-direction: column-reverse;
+            }
+            .payment-section .main-content {
+                margin-bottom: 30px
+            }
+        }
+        
+        @media (max-width:991px) {
+            .home-banner h1 {
+                font-size: 39px;
+            }
+            .home-banner .inline-btns {
+                margin: 20px 0;
+                display: flex
+            }
+            .data-carousel #owl-demo .item h1 {
+                width: 100%;
+            }
+            .data-carousel .owl-dots {
+                display: block;
+                margin-bottom: 20px
+            }
+            .data-carousel .owl-theme .owl-nav {
+                display: none
+            }
+            .data-carousel .mob-progress {
+                display: block
+            }
+            .data-carousel .desktop-progress {
+                display: none
+            }
+        }
+        
+        @media (max-width: 1120px) {
+            .orders.order-details .btns {
+                float: none;
+                display: block;
+            }
+            .orders.order-details .btns .btn-default,
+            .orders.order-details .product-gallery .btns .btn-mabet {
+                width: 100% !important;
+                display: block;
+            }
+            .orders.order-details .btns .btn-default {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (min-width:768px) and (max-width:1024px) {
+            .home-banner .owl-carousel .item .content {
+                top: 0vw;
+            }
+            .home-banner .owl-dots {
+                bottom: 14vw;
+            }
+            .orders.order-details .nav-item {
+                width: 50%;
+            }
+        }
