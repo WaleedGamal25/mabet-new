@@ -1,4 +1,12 @@
         @media (max-width:767px) {
+            .add-offer .btns {
+                display: block !important;
+            }
+            .add-offer .btns .input-field,
+            .add-offer .btns .btn-field {
+                width: 100%;
+                margin-bottom: 10px;
+            }
             .orders.order-details .nav-item {
                 width: 48%;
                 margin: 1%;
@@ -7,6 +15,9 @@
                 margin-top: 20px;
             }
             .new-order .nav-item {
+                width: 100%;
+            }
+            .order-filter.new-order .nav-item {
                 width: 100%;
             }
             .new-order .nav-item .nav-link {
@@ -131,6 +142,9 @@
         }
         
         @media (max-width:991px) {
+            .order-filter .filters {
+                padding: 0 !important;
+            }
             .home-banner h1 {
                 font-size: 39px;
             }
@@ -180,6 +194,9 @@
                 bottom: 14vw;
             }
             .orders.order-details .nav-item {
+                width: 50%;
+            }
+            .order-filter.new-order .nav-item {
                 width: 50%;
             }
         }

@@ -31,7 +31,11 @@ a {
     font-size: 31px;
 }
 
-.main-title {
+.steps .main-img img {
+    width: 100%;
+}
+
+.navbar-toggler-icon .main-title {
     padding-top: 60px;
 }
 
@@ -753,7 +757,7 @@ footer .copyright {
     overflow: hidden;
     position: relative;
     height: 300px;
-    border-radius: 30px;
+    border-radius: 0;
     margin-bottom: 30px
 }
 
@@ -1427,8 +1431,9 @@ footer .copyright {
 }
 
 .new-order .nav-tabs {
-    width: 100%;
+    max-width: 1200px;
     border: none;
+    margin: 0 auto;
 }
 
 .new-order .nav-item {
@@ -2433,6 +2438,7 @@ button:focus {
 .orders.order-details .btns {
     float: left;
     /* display: flex; */
+    margin-top: 20px;
 }
 
 .orders.order-details .btns .btn-default {
@@ -2493,3 +2499,346 @@ button:focus {
 
 
 /* Profile */
+
+
+/* Add Mabet */
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+.add-mabet .box-content {
+    margin-bottom: 20px;
+    display: block;
+    min-width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px #ddd;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    overflow: hidden;
+}
+
+.add-mabet .alert {
+    background: #F0F1EB;
+    color: #6A7C68;
+    margin: 10px 0 30px
+}
+
+.add-mabet .upload-options {
+    position: relative;
+    height: 50px;
+    background-color: cadetblue;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    transition: background-color ease-in-out 150ms;
+}
+
+.add-mabet .upload-options:hover {
+    background-color: #7fb1b3;
+}
+
+.add-mabet .upload-options input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.add-mabet .upload-options label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.add-mabet .upload-options label::after {
+    content: "add";
+    font-family: "Material Icons";
+    font-size: 2.5rem;
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -5px;
+}
+
+.add-mabet .upload-options label span {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.add-mabet .upload-options label span:hover i.material-icons {
+    color: lightgray;
+}
+
+.add-mabet .js--image-preview {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("");
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.add-mabet .js--image-preview::after {
+    content: url(../images/upload-img.png);
+    font-family: "Material Icons";
+    font-size: 4.5em;
+    color: #e6e6e6;
+    top: calc(50% - 3rem);
+    left: calc(50% - 2.25rem);
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-mabet .js--image-preview.js--no-default::after {
+    display: none;
+}
+
+.add-mabet .js--image-preview:nth-child(2) {
+    background-image: url("http://bastianandre.at/giphy.gif");
+}
+
+.add-mabet i.material-icons {
+    transition: color 100ms ease-in-out;
+    font-size: 2.25em;
+    line-height: 55px;
+    color: white;
+    display: block;
+}
+
+.add-mabet .drop {
+    display: block;
+    position: absolute;
+    background: rgba(95, 158, 160, 0.2);
+    border-radius: 100%;
+    transform: scale(0);
+}
+
+.add-mabet .animate {
+    -webkit-animation: ripple 0.4s linear;
+    animation: ripple 0.4s linear;
+}
+
+@-webkit-keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+.new-order #div_id_radio_buttons input[type=radio] {
+    display: block !important;
+}
+
+.new-order #div_id_radio_buttons input[type=radio]:checked+label,
+.new-order #div_id_radio_buttons label {
+    background: none !important;
+    color: black !important;
+    text-align: right;
+    box-shadow: none;
+    padding: 0;
+}
+
+.new-order #div_id_radio_buttons input[type=radio]:checked+label {
+    background: none !important;
+    color: black !important;
+}
+
+#div_id_radio_buttons .custom-control-input.is-invalid~.custom-control-label::before,
+.was-validated .custom-control-input:invalid~.custom-control-label::before {
+    border-color: #006E29 !important;
+    display: block !important;
+}
+
+.new-order #div_id_radio_buttons input[type=radio]:checked+label::before {
+    position: absolute;
+    right: -26px;
+    top: 2px;
+    display: block !important;
+    background: #006E29;
+    box-shadow: none !important;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.new-order #div_id_radio_buttons label:after {
+    content: '';
+    border-bottom: none !important;
+    width: auto !important;
+    display: block !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.new-order #div_id_radio_buttons .custom-control {
+    margin-bottom: 15px;
+    padding-right: 40px !important;
+}
+
+.offer-bg {
+    background: white;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+.add-offer .btns {
+    float: right !important;
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+}
+
+.add-offer .btns .input-field {
+    width: 58%;
+    margin-left: 10px;
+}
+
+.add-offer .btns .btn-field {
+    width: 40%;
+}
+
+.add-offer .btns .btn-field a {
+    font-size: 12px !important;
+    white-space: nowrap;
+}
+
+
+/* filter */
+
+.order-filter #main {
+    margin: 0;
+    background: #EEE;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.order-filter #main #faq .card {
+    border: 0;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+
+.order-filter #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+    background: #FFF;
+}
+
+.order-filter #main #faq .card .card-header .btn-header-link {
+    display: block;
+    text-align: right;
+    color: #222;
+    padding: 20px;
+    box-shadow: none !important;
+}
+
+.order-filter #main #faq .card .card-header .btn-header-link:after {
+    content: "\f106";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: left;
+}
+
+.order-filter #main #faq .card .card-header .btn-header-link.collapsed {}
+
+.order-filter #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f107";
+}
+
+.order-filter #main #faq .card .collapsing {}
+
+.order-filter #main #faq .card .collapse {
+    border: 0;
+}
+
+.order-filter #main #faq .card .collapse.show {}
+
+.order-filter .row {
+    background: none !important
+}
+
+.order-filter .row.align-items-center {
+    background: white !important;
+    border-radius: 5px !important;
+}
+
+.order-filter .card ul {
+    margin: 0;
+    padding: 0px 25px 0 0;
+}
+
+.order-filter {
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+
+.order-filter.new-order .nav-item {
+    width: 25%;
+}
+
+
+/* package-register */
+
+.package-register {
+    padding: 40px 0 70px;
+}
+
+.package-register .box {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #CCC;
+    border-radius: 5px;
+    margin-bottom: 20px
+}
+
+.package-register .box h6 {
+    font-weight: 700;
+}
+
+.package-register .box h1 {
+    font-size: 60px;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.package-register .box p {
+    font-size: 18px;
+    color: #002107
+}
+
+
+/* package-register */
