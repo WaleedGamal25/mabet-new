@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="asset/images/fav.png">
+    <title>HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/media.css">
+
+</head>
+
+<!-- Start Header -->
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid logo" width="170px" src="asset/images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item list-inline-item">
+                    <a class="nav-item list-inline-item btn" href="">تسجيل الدخول</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-item list-inline-item btn" href="#">عن مبيت</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-item list-inline-item btn" href="#">أعرض وحدتك</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a href="" class="btn btn-mabet btn">طلب جديد</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-item list-inline-item btn" href="#">English</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- New Order -->
+
+    <div class="add-mabet new-order">
+        <div class="container">
+            <div class="main-title text-center">
+                <h1>طلب جديد</h1>
+                <h5>ادخل تفاصيل الطلب الجديد لإستقبال افضل العروض</h5>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="area">
+                        <h3>المكان</h3>
+                        <p>تحديد مكان الإقامة والوحدة السكنية.</p>
+
+                        <section class="grouped-radio">
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-6">
+                                        <div class="box">
+                                            <input type="radio" id="control_01" name="select" value="1">
+                                            <label for="control_01">
+                                       <h2>مكة المكرمة</h2>
+                                     </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6">
+                                        <div class="box">
+                                            <input type="radio" id="control_02" name="select" value="2">
+                                            <label for="control_02">
+                                      <h2>المدينة المنورة</h2>
+                                    </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </form>
+                        </section>
+                    </div>
+
+                </div>
+                <div class="col-lg-9">
+
+                    <div class="box-details">
+                        <h3>تفاصيل الطلب</h3>
+                        <p>ادخل عنوان وتفاصيل طلبك للوحدة السكنية.</p>
+                        <input class="form-control mb-3" placeholder="عنوان الطلب">
+                        <textarea class="form-control mb-3" placeholder="التفاصيل"></textarea>
+                    </div>
+
+                    <div class="box-details">
+                        <h3>مكان الوحدة السكنية</h3>
+                        <p>قم بتحديد مكان الوحدة السكنية بشكل دقيق على الخريطة.</p>
+                        <div class="responsive-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889"
+                                width="600" height="450" frameborder="0" style="border:0;border-radius: 0 !important;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="box-details">
+                        <h3>الصور</h3>
+                        <p>ارفق صور واضحة للوحدة السكنية.</p>
+                        <div class="wrapper">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="alert text-center" role="alert">
+                                        الصورة الرئيسية ستظهر في الواجهة للعملاء. اجعلها افضل صورة للوحدة السكنية.
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box-content">
+                                        <div class="js--image-preview"></div>
+                                        <div class="upload-options">
+                                            <label>
+                                          <input type="file" class="image-upload" accept="image/*" />
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box-details">
+                        <h3>نوع الوحدة السكنية</h3>
+                        <p>بإمكانك اختيار نوع السكن وتحديد عدد الوحدات المطلوبة تالياً.</p>
+
+                        <form>
+                            <section class="grouped-radio row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box">
+                                        <input type="radio" id="control_12" name="select" value="12">
+                                        <label for="control_12"><h2>سرير</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_13" name="select" value="13">
+                                        <label for="control_13"><h2>غرفة</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_14" name="select" value="14">
+                                        <label for="control_14"><h2>شقة</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_15" name="select" value="15">
+                                        <label for="control_15"><h2>دور كامل</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_16" name="select" value="16">
+                                        <label for="control_16"><h2>شاليه</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_17" name="select" value="17">
+                                        <label for="control_17"><h2>عمارة كاملة</h2></label>
+                                    </div>
+                                </div>
+
+
+                            </section>
+                        </form>
+
+                    </div>
+
+                    <div class="box-details">
+                        <h3>نوع الوحدة السكنية</h3>
+                        <p>بإمكانك اختيار نوع السكن وتحديد عدد الوحدات المطلوبة تالياً.</p>
+
+                        <form>
+                            <section class="grouped-radio row">
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="box">
+                                        <input type="radio" id="control_18" name="select" value="18">
+                                        <label for="control_18"><h2>1</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_19" name="select" value="19">
+                                        <label for="control_19"><h2>2</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_20" name="select" value="20">
+                                        <label for="control_20"><h2>3</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_21" name="select" value="21">
+                                        <label for="control_21"><h2>4</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_22" name="select" value="22">
+                                        <label for="control_22"><h2>5</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_23" name="select" value="23">
+                                        <label for="control_23"><h2>6</h2></label>
+                                    </div>
+                                </div>
+
+
+                            </section>
+                            <p class="mb-3 mt-3">او ادخل العدد المطلوب يدوياً:</p>
+                            <div class="row">
+                                <div class="col-lg-7 col-8">
+                                    <input type="text" class="form-control" placeholder="ادخل العدد...">
+                                </div>
+                                <div class="col-lg-5 col-4">
+                                    <input type="button" class="btn" value="تأكيد العدد">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="box-details">
+                        <h3>عدد النزلاء</h3>
+                        <p>هل ستسكن وحدك ام معك اشخاص اخرين؟</p>
+
+                        <form>
+                            <section class="grouped-radio row">
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="box">
+                                        <input type="radio" id="control_18" name="select" value="18">
+                                        <label for="control_18"><h2>1</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_19" name="select" value="19">
+                                        <label for="control_19"><h2>2</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_20" name="select" value="20">
+                                        <label for="control_20"><h2>3</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_21" name="select" value="21">
+                                        <label for="control_21"><h2>4</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_22" name="select" value="22">
+                                        <label for="control_22"><h2>5</h2></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-4 col-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_23" name="select" value="23">
+                                        <label for="control_23"><h2>6</h2></label>
+                                    </div>
+                                </div>
+
+
+                            </section>
+                            <p class="mb-3 mt-3">او ادخل العدد يدوياً:</p>
+                            <div class="row">
+                                <div class="col-lg-7 col-8">
+                                    <input type="text" class="form-control" placeholder="ادخل العدد...">
+                                </div>
+                                <div class="col-lg-5 col-4">
+                                    <input type="button" class="btn" value="تأكيد العدد">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="box-details">
+                        <h3>الميزانية</h3>
+                        <p>قم بتحديد الميزانية لتكلفة الوحدة السكنية المطلوبة.</p>
+
+                        <form>
+                            <section class="grouped-radio row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box">
+                                        <input type="radio" id="control_08" name="select" value="8">
+                                        <label for="control_08"><h2>أقل من 5,000</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_09" name="select" value="9">
+                                        <label for="control_09"><h2>10,000 ~ 5,000</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_010" name="select" value="10">
+                                        <label for="control_010"><h2>25,000 ~ 10,000</h2></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+
+                                    <div class="box">
+                                        <input type="radio" id="control_11" name="select" value="11">
+                                        <label for="control_11"><h2>لا يهم</h2></label>
+                                    </div>
+                                </div>
+
+
+                            </section>
+                            <div class="form-group form-check mt-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label style="background: none; box-shadow: none; border-radius: 0; padding: 0; margin-bottom: 0; text-align: revert; position: relative; width: 100%;" class="form-check-label" for="exampleCheck1">بإضافة طلب جديد، انت توافق تلقائياً على الشروط والأحكام الخاصة بمنصة مبيت.</label>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="box-details">
+
+                        <h3>الخدمات</h3>
+                        <p>قم بتحديد اذا ما تتوفر هذه الخدمات في الوحدة السكنية.</p>
+
+
+                        <div id="div_id_radio_buttons" class="form-group">
+                            <div class="row">
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_10" value="option_one" />
+                                    <label for="id_id_radio_buttons_0_10" class="custom-control-label">مجلس
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_20" value="option_two" />
+                                    <label for="id_id_radio_buttons_0_20" class="custom-control-label">برادات ماء
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_30" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_30" class="custom-control-label">مكيف
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_40" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_40" class="custom-control-label">ادوات نظافة
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_50" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_50" class="custom-control-label">سرير
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_60" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_60" class="custom-control-label">ثلاجة
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_70" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_70" class="custom-control-label">واي فاي
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_80" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_80" class="custom-control-label">سخان
+                                </label>
+                                </div>
+                                <div class="custom-control custom-radio col-md-4">
+                                    <input type="radio" class="custom-control-input is-invalid" name="radio_buttons" id="id_id_radio_buttons_0_90" value="option_three" />
+                                    <label for="id_id_radio_buttons_0_90" class="custom-control-label">غسالة
+                                </label>
+                                </div>
+                            </div>
+                            <p class="mb-3 mt-3">او ادخل الخدمه يدوياً:</p>
+                            <div class="row">
+                                <div class="col-lg-7 col-8">
+                                    <input type="text" class="form-control" placeholder="ادخل العدد...">
+                                </div>
+                                <div class="col-lg-5 col-4">
+                                    <input type="button" class="btn" value="تأكيد العدد">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-success w-100 mb-5">تأكيد الطلب</button>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- New Order -->
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo">
+                        <img src="asset/images/logo.png" class="img-fluid">
+                    </div>
+                    <p>أطلب سكن و استقبل عروض من أصحاب المساكن مباشرة</p>
+
+                </div>
+                <div class="col-lg-12">
+                    <div class="row links">
+                        <div class="col-lg-3 col-md-6 col-md-6 group text-center">
+                            <h1 class="title-foot">تابعنا</h1>
+                            <ul class="list-unstyled">
+                                <li><a href="">تويتر</a></li>
+                                <li><a href="">يوتيوب</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-md-6 group text-center">
+                            <h1 class="title-foot">حول مبيت</h1>
+                            <ul class="list-unstyled">
+                                <li><a href="about-mabet.html">عن مبيت</a></li>
+                                <li><a href="">تواصل معنا (واتساب)</a></li>
+                                <li><a href="privacy.html">شروط الإستخدام</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-md-6 group text-center">
+                            <h1 class="title-foot">مالك السكن</h1>
+                            <ul class="list-unstyled">
+                                <li><a href="">كيفية إضافة مسكن</a></li>
+                                <li><a href="">إضافة مسكن</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-md-6 group text-center">
+                            <h1 class="title-foot">طالب السكن</h1>
+                            <ul class="list-unstyled">
+                                <li><a href="">كيف يعمل مبيت</a></li>
+                                <li><a href="">طلب جديد</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">© 2023 جميع الحقوق محفوظه مبيت.كوم </p>
+
+            </div>
+    </footer>
+</body>
+<script src="asset/js/jquery-1.12.4.min.js"></script>
+<script src="asset/js/popper-min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.umd.min.js"></script> -->
+<script src="asset/js/script.js"></script>
+<script>
+    function initImageUpload(box) {
+        let uploadField = box.querySelector(".image-upload");
+
+        uploadField.addEventListener("change", getFile);
+
+        function getFile(e) {
+            let file = e.currentTarget.files[0];
+            checkType(file);
+        }
+
+        function previewImage(file) {
+            let thumb = box.querySelector(".js--image-preview"),
+                reader = new FileReader();
+
+            reader.onload = function() {
+                thumb.style.backgroundImage = "url(" + reader.result + ")";
+            };
+            reader.readAsDataURL(file);
+            thumb.className += " js--no-default";
+        }
+
+        function checkType(file) {
+            let imageType = /image.*/;
+            if (!file.type.match(imageType)) {
+                throw "Datei ist kein Bild";
+            } else if (!file) {
+                throw "Kein Bild gewählt";
+            } else {
+                previewImage(file);
+            }
+        }
+    }
+
+    // initialize box-scope
+    var boxes = document.querySelectorAll(".box-content");
+
+    for (let i = 0; i < boxes.length; i++) {
+        let box = boxes[i];
+        initDropEffect(box);
+        initImageUpload(box);
+    }
+
+    /// drop-effect
+    function initDropEffect(box) {
+        let area,
+            drop,
+            areaWidth,
+            areaHeight,
+            maxDistance,
+            dropWidth,
+            dropHeight,
+            x,
+            y;
+
+        // get clickable area for drop effect
+        area = box.querySelector(".js--image-preview");
+        area.addEventListener("click", fireRipple);
+
+        function fireRipple(e) {
+            area = e.currentTarget;
+            // create drop
+            if (!drop) {
+                drop = document.createElement("span");
+                drop.className = "drop";
+                this.appendChild(drop);
+            }
+            // reset animate class
+            drop.className = "drop";
+
+            // calculate dimensions of area (longest side)
+            areaWidth = getComputedStyle(this, null).getPropertyValue("width");
+            areaHeight = getComputedStyle(this, null).getPropertyValue("height");
+            maxDistance = Math.max(parseInt(areaWidth, 10), parseInt(areaHeight, 10));
+
+            // set drop dimensions to fill area
+            drop.style.width = maxDistance + "px";
+            drop.style.height = maxDistance + "px";
+
+            // calculate dimensions of drop
+            dropWidth = getComputedStyle(this, null).getPropertyValue("width");
+            dropHeight = getComputedStyle(this, null).getPropertyValue("height");
+
+            // calculate relative coordinates of click
+            // logic: click coordinates relative to page - parent's position relative to page - half of self height/width to make it controllable from the center
+            x = e.pageX - this.offsetLeft - parseInt(dropWidth, 10) / 2;
+            y = e.pageY - this.offsetTop - parseInt(dropHeight, 10) / 2 - 30;
+
+            // position drop and animate
+            drop.style.top = y + "px";
+            drop.style.left = x + "px";
+            drop.className += " animate";
+            e.stopPropagation();
+        }
+    }
+</script>
+</body>
+
+</html>
